@@ -1,0 +1,32 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
+}
+
+#array-container {
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    width: 80%;
+    height: 50vh;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    margin: 20px 0;
+}
+
+.array-bar {
+    width: 20px;
+    background-color: #007bff;
+    margin: 0 1px;
+    display: inline-block;
+}
+
+.array-bar.sorted {
+    background-color: #28a745;
+}
